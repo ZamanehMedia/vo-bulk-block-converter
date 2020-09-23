@@ -13,8 +13,8 @@
  * Requires PHP: 7.2
  * Author: Zamaneh Media, Van Ons
  * Author URI: https://en.radiozamaneh.com
- * License: MIT
- * License URI: https://spdx.org/licenses/MIT.html
+ * License: GPL-2.0-or-later
+ * License URI: https://spdx.org/licenses/GPL-2.0-or-later.html
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
