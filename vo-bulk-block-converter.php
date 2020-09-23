@@ -10,7 +10,7 @@
  * Description: Convert all classic content to blocks. An extremely useful tool when upgrading to the WordPress 5 Gutenberg editor.
  * Version: 1.0.0
  * Requires at least: 5.4
- * Requires PHP: 7.2
+ * Requires PHP: 5.6
  * Author: Zamaneh Media, Van Ons
  * Author URI: https://en.radiozamaneh.com
  * License: MIT
