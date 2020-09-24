@@ -156,7 +156,13 @@ class VO_Post_Table extends WP_List_Table {
         $query = "SELECT {$select} FROM {$table} {$args}";
         $result = $wpdb->get_results($query, ARRAY_A);
 
-        return (count($result) > 1) ? count($result) : $result[0][$select] ?? 0;
+        if (count($result) > 1) {
+            return count($result);
+        } elseif (isset($result[0][$select])) {
+            return $result[0][$select];
+        } else {
+            return 0;
+        }
     }
 
     /** Text displayed when no data is available */
@@ -339,8 +345,8 @@ class VO_Post_Table extends WP_List_Table {
                     }
                     ?>
                 </select>
-                <input type="text" name="vo_from_date" value="<?=$_REQUEST['vo_from_date'] ?? self::$default_from_date?>" placeholder="From (YYYY-MM-DD)"/>
-                <input type="text" name="vo_to_date" value="<?=$_REQUEST['vo_to_date'] ?? ''?>" placeholder="To (YYYY-MM-DD)"/>
+                <input type="text" name="vo_from_date" value="<?=isset($_REQUEST['vo_from_date']) ? $_REQUEST['vo_from_date'] : self::$default_from_date?>" placeholder="From (YYYY-MM-DD)"/>
+                <input type="text" name="vo_to_date" value="<?=isset($_REQUEST['vo_to_date']) ? $_REQUEST['vo_to_date'] : ''?>" placeholder="To (YYYY-MM-DD)"/>
                 <?php submit_button( __( 'Filter', VO_DOMAIN ), 'action', 'vo_filter_btn', false ); ?>
                 <?php if (empty($_REQUEST['vo_get_errors'])) : ?>
                     <?php submit_button( sprintf(__( 'Convert Current Filter (%d)', VO_DOMAIN ), self::$total_items), 'primary', 'vo_convert_filter', false, ['data-nonce' => $bulk_nonce] ); ?>
