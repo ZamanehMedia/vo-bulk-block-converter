@@ -9,6 +9,7 @@
  * Plugin URI: https://tech.zamaneh.com
  * Description: Convert all classic content to blocks. An extremely useful tool when upgrading to the WordPress 5 Gutenberg editor.
  * Version: 1.0.0
+ * Text Domain: vo-bulk-block-conversion
  * Requires at least: 5.4
  * Requires PHP: 7.2
  * Author: Zamaneh Media, Van Ons
@@ -21,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-define( 'VO_DOMAIN', 'vo' );                   				 // Text Domain
+define( 'VO_DOMAIN', 'vo-bulk-block-conversion' );     // Text Domain
 define( 'VO_SLUG', 'bulk-block-conversion' );      		 // Plugin slug
 define( 'VO_FOLDER', plugin_dir_path( __FILE__ ) );    // Plugin folder
 define( 'VO_URL', plugin_dir_url( __FILE__ ) );        // Plugin URL
@@ -39,6 +40,10 @@ function vo_init_the_plugin() {
 	}
 	// dispatching POST to GET parameters
 	add_action( 'init', 'vo_dispatch_url' );
+	// load plugin text domain
+	add_action( 'init', function () {
+		load_plugin_textdomain( VO_DOMAIN );
+	} );
 	// adding subitem to the Tools menu item
 	add_action( 'admin_menu', 'vo_display_menu_item' );
 	// bulk all posts convert
