@@ -3,6 +3,27 @@
 
 Convert all classic content to blocks. An extremely useful tool when upgrading to the WordPress 5 Gutenberg editor. This plugin owes a debt of gratitude to the [Organic Themes](https://organicthemes.com/) [Bulk Block Coverter](https://wordpress.org/plugins/bulk-block-converter/) from which it was forked.
 
+## Description
+
+## Table of Contents
+
+- [Installation](#installation)
+- [User Manual](#user-manual)
+- [Frequently Asked Questions](#frequently-asked-questions)
+  1. [Why do I see a `Block core/html warning` after conversion?](#1-why-do-i-see-a-block-corehtml-warning-after-conversion)
+- [Contribute](#contribute)
+- [License](#license)
+
+## Installation
+
+## User Manual
+
+## Frequently Asked Questions
+
+### 1. Why do I see a `Block core/html warning` after conversion?
+
+## Contribute
+
 ## License
 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
