@@ -1,0 +1,145 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: VO Bulk Block Converter\n"
+"POT-Creation-Date: 2020-09-24 12:28+0200\n"
+"PO-Revision-Date: 2020-09-24 12:28+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: vo-bulk-block-converter.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: code/class-vo-post-table.php:22
+msgid "Post"
+msgstr ""
+
+#: code/class-vo-post-table.php:23
+msgid "Posts"
+msgstr ""
+
+#: code/class-vo-post-table.php:164
+msgid "No items available."
+msgstr ""
+
+#: code/class-vo-post-table.php:175
+msgid "Title"
+msgstr ""
+
+#: code/class-vo-post-table.php:176
+msgid "Post Type"
+msgstr ""
+
+#: code/class-vo-post-table.php:177
+msgid "Post Date"
+msgstr ""
+
+#: code/class-vo-post-table.php:178
+msgid "Action"
+msgstr ""
+
+#: code/class-vo-post-table.php:208
+msgid "No Post Title"
+msgstr ""
+
+#: code/class-vo-post-table.php:259 code/class-vo-post-table.php:292
+msgid "Convert"
+msgstr ""
+
+#: code/class-vo-post-table.php:262
+msgid "View"
+msgstr ""
+
+#: code/class-vo-post-table.php:344
+msgid "Filter"
+msgstr ""
+
+#: code/class-vo-post-table.php:346
+#, php-format
+msgid "Convert Current Filter (%d)"
+msgstr ""
+
+#: vo-bulk-block-converter.php:113
+msgid "Bulk Block Conversion"
+msgstr ""
+
+#: vo-bulk-block-converter.php:114
+msgid "Block Conversion"
+msgstr ""
+
+#: vo-bulk-block-converter.php:138
+msgid "Server error occured!"
+msgstr ""
+
+#: vo-bulk-block-converter.php:139
+#, php-format
+msgid "Scanning... %s%%"
+msgstr ""
+
+#: vo-bulk-block-converter.php:140 vo-bulk-block-converter.php:221
+#, php-format
+msgid "Converting... %s%%"
+msgstr ""
+
+#: vo-bulk-block-converter.php:141
+msgid "All posts successfully converted!"
+msgstr ""
+
+#: vo-bulk-block-converter.php:142
+msgid ""
+"You are about to convert all classic posts in this filter to blocks. These "
+"changes are irreversible. Convert all classic posts in this filter to blocks?"
+msgstr ""
+
+#: vo-bulk-block-converter.php:143
+msgid "Converting..."
+msgstr ""
+
+#: vo-bulk-block-converter.php:144
+msgid "Converted"
+msgstr ""
+
+#: vo-bulk-block-converter.php:145
+msgid "Block core/html warning"
+msgstr ""
+
+#: vo-bulk-block-converter.php:146
+msgid "Failed"
+msgstr ""
+
+#: vo-bulk-block-converter.php:179 vo-bulk-block-converter.php:292
+msgid "Forbidden!"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "VO Bulk Block Converter"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://tech.zamaneh.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Convert all classic content to blocks. An extremely useful tool when "
+"upgrading to the WordPress 5 Gutenberg editor."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Zamaneh Media, Van Ons"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://en.radiozamaneh.com"
+msgstr ""
